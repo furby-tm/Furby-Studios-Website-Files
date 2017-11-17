@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'gt_walsheimblack';
+    src: url('fonts/gt-walsheim-black-webfont.woff2') format('woff2'),
+         url('fonts/gt-walsheim-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+  color: yellow;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/donut.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img {
+  width: 5%;
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  text-align: left;
+  color: black;
+  padding: 20px;
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  margin-top: -.15%;
+  padding-left: 15px;
+  font-family: "gt_walsheimblack";
+}
+
+.cover {
+  margin-left: 25%;
+  margin-top: 25%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  font-family: "gt_walsheimblack";
+  font-size: 36px;
+  opacity: 0.8;
+}
+
+hr {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: "gt_walsheimblack";
+  opacity: 0.7;
+}
+
+footer {
+  font-family: "gt_walsheimblack";
+  opacity: 0.2;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+  margin-top: -2%;
+}
+ p {
+   display: inline-block;
+ }
+
+ .left {
+   float: left;
+ }
+
+ .right {
+   float: right;
+   margin-right: 3%;
+ }
