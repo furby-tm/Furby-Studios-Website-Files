@@ -85,7 +85,7 @@ logoTimeline
   stroke: {
     value: ['#F4D8CD', function(el) { return anime.getValue(el, 'stroke') } ],
     duration: 800,
-    delay: 2000,
+    delay: 1000,
     easing: 'easeInQuad'
   },
   offset: 0
@@ -94,7 +94,7 @@ logoTimeline
   targets: ['.icon-text path', '.icon-text polygon'],
   translateY: [50, 0],
   opacity: { value: [0, 1], duration: 100, easing: 'linear' },
-  delay: function(el, i, t) { return 6800 + ( i * 20 ); },
+  delay: function(el, i, t) { return 5800 + ( i * 20 ); },
   offset: 0
 })
 .add({
