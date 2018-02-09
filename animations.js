@@ -67,7 +67,7 @@ logoTimeline
   targets: '.icon',
   opacity: { value: 1, duration: 10, delay: 0, easing: 'linear' },
   translateY: { value: 60, duration: 800 },
-  delay: 6800,
+  delay: 800,
   offset: 0
 })
   .add({
