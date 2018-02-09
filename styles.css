@@ -211,6 +211,7 @@ body.ready { opacity: 1; }
 
   .icon-text svg {
     width: 160%;
+    margin-left: -10%;
    }
 
   .dot-i {
