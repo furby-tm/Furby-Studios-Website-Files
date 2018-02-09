@@ -154,6 +154,7 @@ body.ready { opacity: 1; }
   left: 60px;
   width: 160px;
   height: 62px;
+  width: 300%;
 }
 
 .icon-text path,
