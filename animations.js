@@ -65,7 +65,7 @@ var logoAnimation = (function() {
 logoTimeline
   .add({
   targets: '.icon',
-  opacity: { value: 1, duration: 10, delay: 1400, easing: 'linear' },
+  opacity: { value: 1, duration: 10, delay: 0, easing: 'linear' },
   translateY: { value: 60, duration: 800 },
   delay: 6800,
   offset: 0
@@ -94,7 +94,7 @@ logoTimeline
   targets: ['.icon-text path', '.icon-text polygon'],
   translateY: [50, 0],
   opacity: { value: [0, 1], duration: 100, easing: 'linear' },
-  delay: function(el, i, t) { return 6800 + ( i * 20 ); },
+  delay: function(el, i, t) { return 2800 + ( i * 20 ); },
   offset: 0
 })
 .add({
