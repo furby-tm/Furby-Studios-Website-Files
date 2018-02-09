@@ -223,8 +223,9 @@ body.ready { opacity: 1; }
   text-decoration: none;
 }
 
-.button.blue {
+.button.blue.disabled {
   color: #61888C;
+  cursor: not-allowed;
 }
 
 .button.green {
@@ -233,10 +234,6 @@ body.ready { opacity: 1; }
 
 .button.red {
   color: #FF1461;
-}
-
-.button.disabled { 
-  cursor: not-allowed;
 }
 
 .button svg {
