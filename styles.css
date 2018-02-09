@@ -202,7 +202,7 @@ body.ready { opacity: 1; }
 
 @media (max-width: 700px) {
   .logo-icon {
-    left: 100px;
+    left: 150px;
   }
 	
   .logo-icon svg {
