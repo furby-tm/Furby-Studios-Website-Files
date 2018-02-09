@@ -104,7 +104,7 @@ logoTimeline
       opacity: 1,
       easing: 'easeOutExpo',
       delay: function(el, i, l) {
-        return i * 20
+        return i * 80
       },
       offset: '-=250'
     })
