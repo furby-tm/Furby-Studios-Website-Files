@@ -94,7 +94,7 @@ logoTimeline
   targets: ['.icon-text path', '.icon-text polygon'],
   translateY: [50, 0],
   opacity: { value: [0, 1], duration: 100, easing: 'linear' },
-  delay: function(el, i, t) { return 100 + ( i * 20 ); },
+  delay: function(el, i, t) { return 800 + ( i * 20 ); },
   offset: 0
 })
 .add({
