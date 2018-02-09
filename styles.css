@@ -202,7 +202,7 @@ body.ready { opacity: 1; }
 
 @media (max-width: 700px) {
   .logo-icon {
-    left: 310px;
+    left: 100px;
   }
 	
   .logo-icon svg {
@@ -210,7 +210,7 @@ body.ready { opacity: 1; }
   }
 
   .icon-text svg {
-    width: 200%;
+    width: 250%;
    }
 
   .dot-i {
