@@ -65,7 +65,7 @@ var logoAnimation = (function() {
 logoTimeline
   .add({
   targets: '.icon',
-  opacity: { value: 1, duration: 10, delay: 5400, easing: 'linear' },
+  opacity: { value: 1, duration: 10, delay: 1400, easing: 'linear' },
   translateY: { value: 60, duration: 800 },
   delay: 6800,
   offset: 0
@@ -78,14 +78,14 @@ logoTimeline
   ],
   strokeWidth: {
     value: [8, 2],
-    delay: 5600,
+    delay: 1600,
     duration: 800,
     easing: 'easeInQuad'
   },
   stroke: {
     value: ['#F4D8CD', function(el) { return anime.getValue(el, 'stroke') } ],
     duration: 800,
-    delay: 6000,
+    delay: 2000,
     easing: 'easeInQuad'
   },
   offset: 0
