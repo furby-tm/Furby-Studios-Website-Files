@@ -204,6 +204,10 @@ body.ready { opacity: 1; }
   .logo-icon {
     left: 210px;
   }
+	
+  .logo-icon {
+    width: 50%;	  
+  }
 
   .icon-text svg {
     width: 100%;
