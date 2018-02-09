@@ -16,7 +16,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: #F4D8CD;
+  color: #FFF;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -294,6 +294,6 @@ body.ready { opacity: 1; }
 
 .credits a:hover,
 .highlighted {
-  color: #F4D8CD;
+  color: darkgray;
   transition: color .25s ease;
 }
