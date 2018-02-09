@@ -204,6 +204,11 @@ body.ready { opacity: 1; }
   .logo-icon {
     left: 210px;
   }
+
+  .logo-icon svg {
+    width: 50%;
+   }
+
   .dot-i {
    left: 220px;
   }
