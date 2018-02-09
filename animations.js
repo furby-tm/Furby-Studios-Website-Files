@@ -78,14 +78,14 @@ logoTimeline
   ],
   strokeWidth: {
     value: [8, 2],
-    delay: 200,
+    delay: 00,
     duration: 800,
     easing: 'easeInQuad'
   },
   stroke: {
     value: ['#F4D8CD', function(el) { return anime.getValue(el, 'stroke') } ],
     duration: 800,
-    delay: 400,
+    delay: 100,
     easing: 'easeInQuad'
   },
   offset: 0
