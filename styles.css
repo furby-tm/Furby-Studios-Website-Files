@@ -206,11 +206,11 @@ body.ready { opacity: 1; }
   }
 	
   .logo-icon svg {
-    width: 100%;	  
+    width: 60%;	  
   }
 
   .icon-text svg {
-    width: 250%;
+    width: 160%;
    }
 
   .dot-i {
