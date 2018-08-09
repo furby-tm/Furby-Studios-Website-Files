@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Furby Studios | Shorts</title>
+    <link rel="stylesheet" href="stylesNormal.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html"><img src="furbylogo.png"></a></li>
+        <li class="active"><a class="text" href="shorts.html">Shorts</a></li>
+        <li><a class="text" href="stills.html">Stills</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <img class="filming" src="images/film.gif" title="Busy Filming" />
+      <h1 class="busy">Our first film <span class="bioticaText">Biotica</span> is currently in production.</h1>
+      <div class="progress-wrap progress" data-progress-percent="5">
+        <div class="progress-bar progress"><br/><p class="percent">5% Complete</p></div>
+      </div>
+      <p class="credits">
+        Copyright<span class="version"></span> &copy; <span class="date">2018</span> <a href="http://www.furbystudios.com" target="_blank">Furby Studios Inc.</a> All rights reserved.
+      </p>
+    </div>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      // on page load...
+    moveProgressBar();
+    // on browser resize...
+    $(window).resize(function() {
+        moveProgressBar();
+    });
+
+    // SIGNATURE PROGRESS
+    function moveProgressBar() {
+      console.log("moveProgressBar");
+        var getPercent = ($('.progress-wrap').data('progress-percent') / 100);
+        var getProgressWrapWidth = $('.progress-wrap').width();
+        var progressTotal = getPercent * getProgressWrapWidth;
+        var animationLength = 2500;
+
+        // on page load, animate percentage bar to data percentage length
+        // .stop() used to prevent animation queueing
+        $('.progress-bar').stop().animate({
+            left: progressTotal
+        }, animationLength);
+    }
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <script type="text/javascript" src="anime.js"></script>
+    <script type="text/javascript" src="fireworks.js"></script>
+    <script type="text/javascript" src="animations.js"></script>
+  </body>
+</html>

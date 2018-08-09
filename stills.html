@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Furby Studios | Stills</title>
+    <link rel="stylesheet" href="stylesNormal.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/strip.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/strip.css"/>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html"><img src="furbylogo.png"></a></li>
+        <li><a class="text" href="shorts.html">Shorts</a></li>
+        <li class="active"><a class="text" href="stills.html">Stills</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="column">
+          <div class="hoverContainer">
+            <p class="hoverText">Donuts</p>
+            <a href="works/donut.jpg" data-strip-caption="Donuts: Made in Blender and rendered with Cycles. Made use of Blender's particle system to create sprinkles on the donuts and the plate, and weight painted in the density for the sprinkles. Made complete with a texture for the table and morning lighting." class="strip"><img class="donut" src="works/donut.jpg">
+            </a>
+          </div>
+          <div class="hoverContainer">
+            <p class="hoverText">Cora</p>
+            <a href="works/bioticagirl.jpg" data-strip-caption="Cora: Made in Blender and rendered with Cycles. A character in development for the upcoming film 'Biotica' - the first film produced by Furby Studios." class="strip"><img class="bioticagirl" src="works/bioticagirl.jpg"></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="hoverContainer">
+            <p class="hoverText">Interference</p>
+            <a href="works/interference.png" data-strip-caption="Interference: Made in Houdini and rendered with Arnold. Made use of an interference algorithm to replicate the interference wavelengths that occur in nature, typically found when a buoy oscillates on the surface of water." class="strip"><img class="interference" src="works/interference.png"></a>
+          </div>
+          <div class="hoverContainer">
+            <p class="hoverText">Morning</p>
+            <a href="works/kitchen.png" data-strip-caption="Morning: Made in Maya and rendered with Arnold. Created a 'lived in' scene to replicate an older style kitchen." class="strip"><img class="kitchen" src="works/kitchen.png"></a>
+          </div>
+          <div class="hoverContainer">
+            <p class="hoverText">Instability</p>
+            <a href="works/instability.jpg" data-strip-caption="Instability: Made in Houdini and rendered with Arnold. Made use of a rayleigh-taylor algorithm to replicate the phenomena that occurs in nature with two fluids of different densities. Occurs when the lighter fluid is pushing the heavier fluid." class="strip"><img class="instability" src="works/instability.jpg"></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="hoverContainer">
+            <p class="hoverText">Computer</p>
+            <a href="works/comp.jpg" data-strip-caption="Computer: Made in Maya and rendered with Arnold. Inspired by the early Apple Macintosh, created a similiar design." class="strip"><img class="comp" src="works/comp.jpg"></a>
+          </div>
+        <div class="hoverContainer">
+          <p class="hoverText">Diffusion</p>
+          <a href="works/reactive.png" data-strip-caption="Diffusion: Made in Houdini and rendered with Arnold. Made use of a procedural diffusion algorithm, similiar to that found in nature, which lines in human skin is formed, 'Blaschko’s lines'." class="strip"><img class="reactive" src="works/reactive.png"></a>
+        </div>
+        </div>
+        <div class="column">
+          <div class="hoverContainer">
+            <p class="hoverText">Earth</p>
+            <a href="works/planetearth.jpg" data-strip-caption="Earth: Made in Maya, rendered with Arnold, and composited in Nuke. Made use of texture maps from NASA. This is the cold open shot in development for the upcoming film 'Biotica'." class="strip"><img class="planet" src="works/planetearth.jpg"></a>
+        </div>
+        <div class="hoverContainer">
+          <p class="hoverText">Instability 2</p>
+          <a href="works/purpinstability.jpg" data-strip-caption="Instability 2: Made in Houdini and rendered with Arnold. Made use of a rayleigh-taylor algorithm to replicate the phenomena that occurs in nature with two fluids of different densities. Occurs when the lighter fluid is pushing the heavier fluid." class="strip"><img class="purpinstability" src="works/purpinstability.jpg"></a>
+        </div>
+        <div class="hoverContainer">
+          <p class="hoverText">Entangled</p>
+          <a href="works/vex.jpg" data-strip-caption="Entagled: Made in Houdini and rendered with Arnold. Converted François Joseph Bosio's 'La Nymphe Salmacis' sculpture and connected points through Houdini's vex for an interesting design." class="strip"><img class="vex" src="works/vex.jpg"></a>
+        </div>
+        </div>
+      </div>
+    <p class="credits">
+      Copyright<span class="version"></span> &copy; <span class="date">2018</span> <a href="http://www.furbystudios.com" target="_blank">Furby Studios Inc.</a> All rights reserved.
+    </p>
+    </div>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("nav");
+      var sticky = navbar.offsetTop;
+
+      $(".hoverContainer").hover(
+        function () {
+          $("img", this).css( 'cursor', 'pointer' );
+          $("img", this).fadeTo(400, 0.3, function () {
+          });
+          $(".hoverText", this).fadeTo(400, 1.0, function () {
+          });
+      },
+        function() {
+          $("img", this).css( 'cursor', 'pointer' );
+          $("img", this).fadeTo(400, 1.0, function () {
+          });
+          $(".hoverText", this).fadeTo(400, 0.0, function () {
+          });
+        });
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <script type="text/javascript" src="anime.js"></script>
+    <script type="text/javascript" src="fireworks.js"></script>
+    <script type="text/javascript" src="animations.js"></script>
+  </body>
+</html>
