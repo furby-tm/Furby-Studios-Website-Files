@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="https://rawcdn.githack.com/tyler-furby/Furby-Studios-Website-Files/5ac9a96c45c905c5be7c1b811107e07c18b3d39b/images/mstile-150x150.png"/>
+            <TileColor>#b91d47</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
