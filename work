@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport" />
+    
+    <meta content="IE=EDGE" http-equiv="X-UA-Compatible" />
+
+    <title>Biotica</title>
+
+    <meta name="description" content="a simple concept of card interaction tribute to starbucks made with Adobe Xd" />
+
+    <meta name="keywords" content="freelance, graphic designer, user interface design, interection design, wireframe, prototype, digital designer, web designer, mobile application, prototipazione applicativi mobili, app, ios, android, verona, italia, italy" />
+
+    <meta name="generator" content="ProcessWire 3.0.98" />
+
+    <meta property="og:locale" content="en" />
+    
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:title" content="Starbucks" />
+    
+    <meta property="og:description" content="a simple concept of card interaction tribute to starbucks made with Adobe Xd" />
+    
+    <meta property="og:url" content="https://www.nicocherubin.com/work/starbucks/" />
+    
+    <meta property="og:site_name" content="Nico Cherubin" />
+    
+    <meta property="og:image" content="s-shares.png" />
+    
+    <meta property="og:image:width" content="1200" />
+
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:description" content="a simple concept of card interaction tribute to starbucks made with Adobe Xd" />
+    
+    <meta name="twitter:title" content="Starbucks" />
+    
+    <meta name="twitter:site" content="@nicocherubin" />
+    
+    <meta name="twitter:image" content="s-shares.png" />
+
+    <link rel="stylesheet" type="text/css" href="C:\Users\tyler\www.nicocherubin.com\main.css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25849172-1"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-25849172-1');
+    </script>
+
+  </head>
+
+  <body class="no-js t-dark">
+
+    <script> document.body.classList.remove('no-js') </script>
+
+    <a href="#bodycopy" class="visually-hidden element-focusable bypass-to-main">Skip to content</a>
+
+    <button class="toggle" id="menu-toggle"><span class="toggle__label">menu</span></button>
+
+    <nav class="nav" id="nav">
+      <div class="nav__item nav__item--first">
+        <a data-namespace="home" href="/">work</a>
+              </div>
+      <div class="nav__item nav__item--second"><a data-namespace="about" href="/about/">about</a></div>
+      <div class="nav__item nav__item--third" itemscope itemtype="https://schema.org/Organization">
+        <button>follow</button>
+        <link itemprop="url" href="https://www.nicocherubin.com">
+        <ul class="nav__sub" >
+          <li lass="nav__item">
+            <a target="_blank" itemprop="sameAs" href="https://twitter.com/nicocherubin">tw</a>
+          </li>
+          <li lass="nav__item">
+            <a target="_blank" itemprop="sameAs"  href="https://www.instagram.com/kericon/">ig</a>
+          </li>
+          <li lass="nav__item">
+            <a target="_blank" itemprop="sameAs" href="https://www.linkedin.com/in/nicocherubin/">ln</a>
+          </li>
+          <li lass="nav__item">
+            <a target="_blank" itemprop="sameAs" href="https://www.behance.net/nicocherubin">be</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__item nav__item--quarter">
+        <button id="clip-mail" data-clipboard-text="hello@nicocherubin.com">say hi</button>
+        <div class="clip">
+          <span class="clip__text">e-mail copied</span>
+          </div>
+      </div>
+    </nav>
+
+    <div id="barba-wrapper">
+
+      <div class="barba-container" data-namespace="work">
+
+        <div id="bodycopy">
+<article class='work' data-index='0'><a data-namespace='home' href='/' class='work__help work__back'>close</a><div class='work__bar'></div><header class='work__cover'><div class='work__wrap'><video id='video-desktop' class='work__video work__video--desktop' loop muted autoplay playsinline webkit-playsinline poster=''><source src='/site/assets/files/1024/s-dsktp.mp4' type='video/mp4' /></video><video id='video-mobile' class='work__video work__video--mobile' loop muted autoplay playsinline webkit-playsinline poster=''><source src='/site/assets/files/1024/s-mob.mp4' type='video/mp4' /></video></div></header><div class='work__content'><div class='counter work__counter'>
+                <div class='counter__wrap'>
+                    <span class='counter__current'>.01.</span>
+                    <span class='counter__separator'></span>
+                    <span class='counter__total'>.09.</span>
+                </div>
+            </div><div class='work__backdrop'></div>
+            <div class='work__letter'>
+                <img class='visually-hidden' src='/site/assets/files/1024/s-outline.png' alt='Starbucks' />
+            </div>
+            <div class='work__info'>
+                <div class='work__data'>
+                    <div class='work__row'>
+                        <div class='work__col work__col--full'>
+                            <h1>Starbucks</h1>
+                            <p><p>a simple poc of card interaction</p>
+
+<p>tribute to starbucks made with Adobe Xd</p></p>
+                        </div>
+                    </div>
+                    <div class='work__row work__row--invert-mobile'>
+                        <div class='work__col'>
+                            <h2>Type</h2>
+                            <p>design files</p>
+                        </div>
+                        <div class='work__col'>
+                            <h2>Project</h2>
+                            <p>tribute project</p>
+                        </div>
+                    </div>
+                    <div class='work__row work__row--invert-mobile'>
+                        <div class='work__col work__col--last work__col--full'>
+                            <h2>Source</h2><div><a target='_blank' href='https://bit.ly/2EspK4Z'>download</a></div></div>
+                    </div>
+                </div>
+            </div>
+        </div><button class='work__help work__reveal'>Hold to reveal</button></article><script id='work-script'>var __WORK__ = {id: 1024,
+            title: 'Starbucks',
+            image: '/site/assets/files/1024/s-outline.png',
+            video: '/site/assets/files/1024/s-dsktp.mp4',
+            videoMobile: '/site/assets/files/1024/s-mob.mp4'};</script>        </div><!--/bodycopy-->
+
+      </div><!--/barba-container-->
+
+    </div><!--/barba-wrapper-->
+
+    
+    <div class="loader">
+      <div class="loader__claim">Hey, nice to see you here</div>
+    </div>
+
+    <!-- <div class="noise" id="noise"></noise> -->
+
+    <script src="C:\Users\tyler\www.nicocherubin.com\main.js"></script>
+
+  </body>
+
+</html>
